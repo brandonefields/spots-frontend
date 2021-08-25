@@ -3,7 +3,7 @@ import React from 'react';
 const Dog = (props) => {
     return (
     
-            <li className="dogs-card">
+            <li className="dog-card">
                 <h1>"{props.name}"</h1>
                 <p>Breed: {props.breed}</p>
                 <p>Color: {props.color}</p>

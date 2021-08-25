@@ -1,7 +1,7 @@
 import React from 'react';
 import Dog from './Dog';
 
-const DogsContainer = ({ dogs }) => {
+export default function DogsContainer({ dogs }){
 
     const showDogs = () => {
         return dogs.map(dog => <Dog key={dog.id} {...dog} />)
@@ -14,4 +14,4 @@ const DogsContainer = ({ dogs }) => {
     )
 }
 
-export default DogsContainer;
+
